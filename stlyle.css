@@ -1,0 +1,109 @@
+
+@font-face{
+font-family: bitter;
+src: url(/bitter/Bitter\ Bold.ttf);
+}
+
+
+body{
+    margin:auto;
+    padding: auto;
+    width: 80%;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-shadow: 0.5px 0.5px 1px rgb(160, 152, 152);
+    background-color: #c8c8c8;
+    opacity: 0.99;
+    } 
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family:"Bitter";
+    font-size: 5em;
+}
+h2{
+    color: #cf0000;
+    font-weight: bold;
+    font-family: 'Bitter-bold';
+    font-size: 2em;
+}
+a{
+    color:#df0000;
+    font-weight: bold;
+}
+
+blockquote p{
+    line-height: 2em;
+}
+ 
+table{
+    
+    border-spacing: unset;
+    margin-bottom: 20px;
+}
+table th{
+    color: white;
+    background-color:#333333;
+    padding: 0.5em;
+}
+tr :hover{cursor:pointer;
+         background-color: #999999;
+}
+
+
+tr{
+    padding: 10px;
+}
+tr:nth-child(2n+1){
+    background-color: #dddddd;
+    
+}
+
+td{
+    padding: 0.5rem;
+}
+td:nth-child(1){
+    font-weight: bold;
+}
+
+img{
+    margin-top: 6vh;
+    margin-left:3vw;
+    /* margin-bottom: 16vh; */
+    position: relative;
+    width: 73vw;
+    height: 110vh;
+}
+ 
+figure {  
+    width: 79vw;
+    height: 120vh;
+    background-color:#333333;
+    border:#df0000 solid 3px;
+    margin:0 auto;
+    border-radius: 10px;
+    padding-bottom: 16vh;
+    
+}
+
+figcaption{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+    width: 66vw;
+    margin-left:5vw;
+}
+
+.citation{
+    padding: 10px;
+}
+.dashed{
+    border:#5d00b1 dashed 3px ;
+    color: #5d00b1;
+    background: #b7b7b7;
+    border: 3px #5144ae dashed;
+    padding: 20px 20px;
+    width: 70vw;
+    margin-left: 5vw;
+}
